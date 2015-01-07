@@ -59,7 +59,7 @@ header h1 .where {
   margin: 0 auto;
 }
 
-footer{
+footer {
   height: 160px;
   background: url("../images/node-js.svg") center center no-repeat;
   background-size: auto 150px;
@@ -229,6 +229,10 @@ a:hover {
   text-align: center;
 }
 
+#logo {
+  display: none;
+}
+
 @media screen and (min-width: 500px) {
   header h1 {
     background: #303030 url("../images/schoollines.png") center 20px no-repeat;
@@ -267,9 +271,16 @@ a:hover {
   .terms {
     text-align: center;
   }
+
+  #logo {
+    float: right;
+    height: 150px;
+    margin-right: 60px;
+    display: block;
+  }
 }
 
-@media screen and (min-width : 700px) {
+@media screen and (min-width: 700px) {
   div.term ~ div.term {
     margin-left: 50px;
   }
