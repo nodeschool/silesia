@@ -93,6 +93,15 @@ a:hover {
   color: teal;
 }
 
+.link {
+  color: teal;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: inherit;
+}
+
 #next {
   background-color: #303030;
   color: white;
