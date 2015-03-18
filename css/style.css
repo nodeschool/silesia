@@ -242,6 +242,14 @@ a:hover {
   display: none;
 }
 
+.list-caption {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 5px;
+}
+
 @media screen and (min-width: 500px) {
   header h1 {
     background: #303030 url("../images/schoollines.png") center 20px no-repeat;
