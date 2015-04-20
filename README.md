@@ -10,5 +10,6 @@ List of contributors:
 
 - [@afronski](https://github.com/afronski)
 - [@frakti](https://github.com/frakti)
+- [@derberg](https://github.com/derberg)
 
 If you did a successful PR, feel free to add your Github username here. :smile:
