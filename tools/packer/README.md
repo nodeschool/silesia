@@ -9,6 +9,6 @@ Jak dokonfigurować wirtualną maszynę?
   VBoxManage guestproperty get nodeschool-vm /VirtualBox/GuestInfo/Net/0/V4/IP
 - Użyj klienta SSH (zalecamy PuTTY [1]) do zalogowania się na użytkownika vagrant (hasło: vagrant)
 
-Współdzielony zasób znajduje się w /media/sf_<nazwa_zasobu>
+Współdzielony zasób znajduje się w /media/sf_\<nazwa_zasobu\>
 
 [1] http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
