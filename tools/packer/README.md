@@ -7,7 +7,7 @@ Jak dokonfigurować wirtualną maszynę?
 - Uruchom maszynę w trybie *headless* (trzymając `SHIFT`)
 - Aby poznać IP po uruchomieniu maszyny wykonaj w konsoli komendę:
   VBoxManage guestproperty get nodeschool-vm /VirtualBox/GuestInfo/Net/0/V4/IP
-- Użyj klienta SSH (zalecamy *PuTTY* [1]) do zalogowania się na użytkownika `vagrant` (hasło: `vagrant`)
+- Użyj klienta `SSH` (zalecamy *PuTTY* [1]) do zalogowania się na użytkownika `vagrant` (hasło: `vagrant`)
 
 Współdzielony zasób znajduje się w `/media/sf_<nazwa_zasobu>`
 
