@@ -4,6 +4,11 @@
 
 Repository for organizing the Polish nodeschool.io in the Silesia region.
 
+## NodeSchool - International Day - 2015
+
+- Presentations: https://github.com/nodeschool/silesia/issues/19
+- Summary: *TODO*
+
 ## Hall of Fame
 
 List of contributors:
