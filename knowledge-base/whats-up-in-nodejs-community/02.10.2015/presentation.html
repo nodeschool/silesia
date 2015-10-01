@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NodeSchool Spirit</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+  </head>
+  <body>
+    <textarea id="source"></textarea>
+
+    <script src="scripts/remark.min.js"></script>
+    <script>
+      var request = new XMLHttpRequest();
+      var source = document.getElementById("source");
+
+      request.open("GET", "slides.md", false);
+      request.send();
+
+      source.innerHTML += "\n" + request.responseText;
+
+      var slideshow = remark.create();
+    </script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </body>
+</html>
