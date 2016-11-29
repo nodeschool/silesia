@@ -302,3 +302,8 @@ ul {
     margin-left: 50px;
   }
 }
+
+.slack-logo {
+  max-height: 50px;
+  padding: 10px;
+}
